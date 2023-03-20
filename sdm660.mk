@@ -418,5 +418,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.binary_xml=false
 
+# Zygote
+PRODUCT_VENDOR_PROPERTIES += \
+    zygote.critical_window.minute=10
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
