@@ -276,6 +276,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Perf
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.vendor.qti.sys.fw.bg_apps_limit=32 \
     vendor.perf.gestureflingboost.enable=true
 
 # Public Libraries
