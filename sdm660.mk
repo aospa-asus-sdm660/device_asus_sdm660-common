@@ -127,7 +127,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.disable_rotator_downscale=1
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    debug.sf.latch_unsignaled=0 \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
     persist.hwc.enable_vds=1 \
