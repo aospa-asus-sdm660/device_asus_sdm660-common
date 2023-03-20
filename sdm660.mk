@@ -128,6 +128,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.sf.latch_unsignaled=0 \
+    dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
     persist.hwc.enable_vds=1 \
     sdm.debug.disable_skip_validate=1 \
