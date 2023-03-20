@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session
 
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.service.bdroid.sibs=false \
     persist.vendor.bt.aac_frm_ctl.enabled=true \
     persist.vendor.qcom.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee
