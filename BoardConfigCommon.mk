@@ -123,6 +123,10 @@ BOARD_VNDK_VERSION := current
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2022-03-05
 
+# Verity
+# Only needed for signing
+BOARD_AVB_ENABLE := false
+
 # WLAN
 BOARD_HAS_QCOM_WLAN := true
 WIFI_DRIVER_FW_PATH_AP := "ap"
