@@ -131,7 +131,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.recomputecrop=0 \
     debug.sf.disable_client_composition_cache=1 \
     persist.hwc.mdpcomp.enable=true \
-    vendor.display.disable_rotator_downscale=1
+    vendor.display.disable_rotator_downscale=1 \
+    vendor.display.disable_scaler=1
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dev.pm.dyn_samplingrate=1 \
