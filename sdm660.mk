@@ -388,6 +388,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.surface_flinger.set_touch_timer_ms=200 \
     ro.surface_flinger.set_idle_timer_ms=80
 
+# Telephony
+# Disable handling audio direction changes on IMS calls.
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
+
 # Time
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.timed.enable=true
