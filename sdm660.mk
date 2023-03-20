@@ -316,6 +316,9 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libprotobuf-cpp-full
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.telephony.block_binder_thread_on_incoming_calls=false
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.radio.VT_CAM_INTERFACE=2 \
     persist.sys.fflag.override.settings_provider_model=false
