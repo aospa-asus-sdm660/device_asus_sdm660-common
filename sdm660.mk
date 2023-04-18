@@ -155,6 +155,11 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
     android.hardware.biometrics.fingerprint@2.1.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.fm@1.0:64 \
+    vendor.qti.hardware.fm@1.0.vendor:64
+
 # FRP
 PRODUCT_VENDOR_PROPERTIES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
